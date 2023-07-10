@@ -1,8 +1,6 @@
 <script></script>
 
 <template>
-    <div class="col-4">
-        <slot></slot>
-    </div>
+    <slot></slot>
 </template>
 <style  lang="scss"></style>

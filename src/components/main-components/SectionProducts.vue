@@ -10,11 +10,14 @@ export default {
     <section id="products">
         <div class="row ">
             <CardText>
-                <div class="name-section">OUR PRODUCTS</div>
-                <h2>All our delectable pastries are backed fresh in our Kitchen very morning, and are made with all-natural,
-                    all
-                    organic ingredients.</h2>
-                <button type="button" class="btn btn-light mt-5">Explore our products</button>
+                <div class="col-4">
+                    <div class="name-section">OUR PRODUCTS</div>
+                    <h2>All our delectable pastries are backed fresh in our Kitchen very morning, and are made with
+                        all-natural,
+                        all
+                        organic ingredients.</h2>
+                    <button type="button" class="btn btn-light mt-5">Explore our products</button>
+                </div>
             </CardText>
             <CardProduction>
                 <div class="my-card">
