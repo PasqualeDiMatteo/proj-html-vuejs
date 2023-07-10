@@ -7,6 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faUserSecret);
+library.add(faCartShopping);
 
 createApp(App).component("FontAwesomeIcon", FontAwesomeIcon).mount("#app");

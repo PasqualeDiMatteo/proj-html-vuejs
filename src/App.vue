@@ -4,24 +4,47 @@ export default {
   components: { AppHeader },
   data() {
     return {
-      navbarHeader: {
-        home: "HOME",
-        shop: "SHOP",
-        about: "ABOUT",
-        gallery: "GALLERY",
-        locations: "LOCATIONS",
-        journal: "JOURNAL",
-        contact: "CONTACT",
-        account: "MY ACCOUNT",
-        orders: "fas, cart-shopping"
-      }
+      navbarHeader: [
+        {
+          text: "HOME",
+          active: true
+        },
+        {
+          text: "SHOP",
+          active: false
+        },
+        {
+          text: "ABOUT",
+          active: false
+        },
+        {
+          text: "GALLERY",
+          active: false
+        },
+        {
+          text: "LOCATIONS",
+          active: false
+        },
+        {
+          text: "JOURNAL",
+          active: false
+        },
+        {
+          text: "CONTACT",
+          active: false
+        },
+        {
+          text: "MY ACCOUNT",
+          active: false
+        },
+      ]
     }
   }
 }
 </script>
 
 <template>
-  <AppHeader />
+  <AppHeader :navbarLists="navbarHeader" />
 </template>
 
 <style lang="scss">
