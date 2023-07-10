@@ -41,6 +41,10 @@ export default {
     position: relative;
 }
 
+img {
+    width: 100%;
+}
+
 .name-section {
     font-size: 0.8rem;
     color: grey;
@@ -78,7 +82,6 @@ button {
 
 .angle-right {
     right: 0;
-    translate: -50%;
 }
 
 .angle-left {

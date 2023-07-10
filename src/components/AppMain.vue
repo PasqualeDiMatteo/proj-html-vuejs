@@ -1,10 +1,13 @@
 <script>
 import SectionProducts from "./main-components/SectionProducts.vue"
 import SectionWedding from "./main-components/SectionWeddings.vue"
+import SectionAllProducts from "./main-components/SectionAllProducts.vue"
+
+
 
 export default {
     components: {
-        SectionProducts, SectionWedding
+        SectionProducts, SectionWedding, SectionAllProducts
     }
 }
 </script>
@@ -12,6 +15,7 @@ export default {
     <div class="container ">
         <SectionProducts />
         <SectionWedding />
+        <SectionAllProducts />
     </div>
 </template>
 <style scoped lang="scss">
