@@ -2,7 +2,10 @@
 
 <template>
     <div class="col-4">
-        <slot></slot>
+        <figure>
+            <slot></slot>
+        </figure>
     </div>
 </template>
-<style  lang="scss"></style>
+
+<style></style>
