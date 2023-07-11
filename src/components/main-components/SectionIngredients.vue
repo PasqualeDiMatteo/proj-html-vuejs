@@ -111,7 +111,7 @@ h4 {
 }
 
 .author {
-    color: $grey;
+    color: grey;
 }
 
 h3 {

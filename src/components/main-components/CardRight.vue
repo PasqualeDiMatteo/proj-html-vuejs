@@ -6,7 +6,7 @@
 </template>
 <style scoped lang="scss">
 .col-6 {
-    background-image: linear-gradient(324deg, #f0edf5, 60%, #55328B 90%);
+    background-image: linear-gradient(324deg, #f0edf5, 100%, #55328B 100%);
     background-size: contain;
     background-repeat: no-repeat;
     object-fit: contain;
