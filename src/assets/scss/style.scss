@@ -44,11 +44,20 @@ ul{
 
 .main-btn{
     color: $primary;
+    &:hover{
+        background-color: $primary;
+        color: white;
+    }
 }
 
 .secondary-btn{
     background-color: $primary;
     color: white;
+    border: 2px solid transparent;
+    &:hover{
+        color: $primary;
+        border: 2px solid rgba($color: $primary, $alpha: 0.2);
+    }
 }
 
 // Section
