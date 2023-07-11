@@ -1,14 +1,16 @@
 <script>
 import FullCard from "./FullCard.vue"
 import CardLeft from "./CardLeft.vue"
+import CardRight from "./CardRight.vue"
+
 
 export default {
-    components: { FullCard, CardLeft }
+    components: { FullCard, CardLeft, CardRight }
 }
 </script>
 <template>
     <section id="ingredients" class="mt-100">
-        <div class="row ">
+        <div class="row gy-1">
             <FullCard>
                 <div class="row">
                     <div class="col-6">
@@ -52,15 +54,39 @@ export default {
                     </div>
                 </div>
             </CardLeft>
+            <CardRight>
+                <div class="row align-items-end ">
+                    <div class="col-12 mt-5">
+                        <div class="name-section">DON'T JUST TAKE OUR WORD FOR IT</div>
+                        <h4 class="my-3">"Finally found an alternative to the mass produced products. Something that
+                            incorporates real organic ingredients, nutrient dense wellness while promothing sustainability
+                            and activity."
+                        </h4>
+                        <div class="author">Rachel Cooper, Founder</div>
+                    </div>
+                </div>
+            </CardRight>
         </div>
     </section>
 </template>
 <style scoped lang="scss">
+@use "../../assets/scss/vars" as *;
+
 #ingredients {
     color: white;
     width: 100%;
 }
 
+h4 {
+    color: $primary;
+    font-size: 2rem;
+    line-height: 45px;
+    font-weight: 600;
+}
+
+.author {
+    color: $grey;
+}
 
 h3 {
     font-size: 3rem;
@@ -73,9 +99,5 @@ p {
 .number {
     font-size: 4rem;
     text-align: end;
-}
-
-.CardHAlf {
-    background-image: url();
 }
 </style>
