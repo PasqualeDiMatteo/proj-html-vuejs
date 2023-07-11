@@ -4,13 +4,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <div>FRESH & TASTY BAKERY EVERY DAY</div>
+                    <div class="name-section">FRESH & TASTY BAKERY EVERY DAY</div>
                     <h1>The Perfect Fresh Bread</h1>
                     <p>Cras Consequat lectus vestibulm tortor pulvinar, quis euismod nisl varius. Aliquam erat volutpat.
                         Nullam quis
                         sagittis nibh ac nulla id orci tempor.
                     </p>
-                    <button type="button" class="btn btn-light">Explore our products</button>
+                    <button type="button" class="btn btn-light main-btn">Explore our products</button>
                 </div>
             </div>
         </div>
@@ -19,15 +19,8 @@
 <style scoped lang="scss">
 @use "../../assets/scss/vars" as *;
 
-.col-4 {
-    div {
-        font-size: 0.8rem;
-        color: grey;
-    }
-
-    p {
-        color: grey;
-    }
+p {
+    color: grey;
 }
 
 h1 {
@@ -37,11 +30,5 @@ h1 {
 
 section {
     height: 600px;
-}
-
-button {
-    font-size: 0.8rem;
-    color: $primary;
-    padding: 10px 20px;
 }
 </style>

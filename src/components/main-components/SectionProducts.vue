@@ -16,7 +16,7 @@ export default {
                         all-natural,
                         all
                         organic ingredients.</h2>
-                    <button type="button" class="btn btn-light mt-5">Explore our products</button>
+                    <button type="button " class="btn secondary-btn mt-5">Explore our products</button>
                 </div>
             </CardText>
             <CardProduction>
@@ -45,46 +45,7 @@ img {
     width: 100%;
 }
 
-.name-section {
-    font-size: 0.8rem;
-    color: grey;
-}
-
-h2 {
-    color: $primary;
-    font-weight: 800;
-    font-size: 1.3rem;
-    line-height: 30px;
-}
-
 p {
     color: grey;
-}
-
-button {
-    font-size: 0.8rem;
-    background-color: $primary;
-    color: white;
-    padding: 10px 20px;
-}
-
-.angle {
-    position: absolute;
-    top: 50%;
-    background-color: $primary;
-    padding: 25px 15px;
-    opacity: 0.7;
-    color: white;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-
-.angle-right {
-    right: 0;
-}
-
-.angle-left {
-    left: 0;
 }
 </style>

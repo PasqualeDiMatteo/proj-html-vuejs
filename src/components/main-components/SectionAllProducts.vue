@@ -16,7 +16,7 @@ export default {
                     <p>Integer a nibh vitae ex portitor rutrum et ut velit. Eitiam ac felis at leo feugiat placerat. Sed ac
                         nulla id orci tempor convallis sed.
                     </p>
-                    <button type="button" class="btn btn-light mt-2">Shop All Products</button>
+                    <button type="button" class="btn secondary-btn mt-2">Shop All Products</button>
                 </div>
             </CardText>
         </div>
@@ -71,10 +71,6 @@ export default {
 <style scoped lang="scss">
 @use "../../assets/scss/vars" as *;
 
-.mt-100 {
-    margin-top: 100px;
-}
-
 figure {
     position: relative;
 }
@@ -94,32 +90,5 @@ h6 {
 
 p {
     color: grey;
-
-}
-
-button {
-    font-size: 0.8rem;
-    background-color: $primary;
-    color: white;
-    padding: 10px 20px;
-}
-
-.angle {
-    position: absolute;
-    top: 50%;
-    background-color: $primary;
-    padding: 25px 15px;
-    opacity: 0.7;
-    color: white;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.angle-right {
-    right: 0;
-}
-
-.angle-left {
-    left: 0;
 }
 </style>

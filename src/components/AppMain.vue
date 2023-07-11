@@ -12,14 +12,10 @@ export default {
 }
 </script>
 <template>
-    <div class="container ">
+    <div class="container mt-100">
         <SectionProducts />
         <SectionWedding />
         <SectionAllProducts />
     </div>
 </template>
-<style scoped lang="scss">
-.container {
-    margin-top: 100px;
-}
-</style>
+<style scoped lang="scss"></style>

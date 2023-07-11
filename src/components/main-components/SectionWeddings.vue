@@ -9,7 +9,7 @@ export default {
 
 <template>
     <CardText>
-        <div class="col-12 text-center">
+        <div class="col-12 text-center mt-100">
             <div class="name-section">CORPORATE & WEDDING</div>
             <h2>Baking Special Moments</h2>
         </div>
@@ -26,15 +26,6 @@ export default {
 
 <style scoped lang="scss">
 @use "../../assets/scss/vars" as *;
-
-.col-12 {
-    margin-top: 100px;
-}
-
-.name-section {
-    font-size: 0.8rem;
-    color: grey;
-}
 
 h2 {
     color: $primary;
