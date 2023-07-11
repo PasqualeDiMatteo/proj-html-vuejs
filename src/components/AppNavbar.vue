@@ -1,7 +1,8 @@
 <script>
 export default {
     props: {
-        navbarLists: Object
+        navbarLists: Object,
+        itemsCart: Number
     }
 }
 </script>
@@ -14,7 +15,9 @@ export default {
             </li>
             <li class="nav-item">
                 <a href="#">
-                    <FontAwesomeIcon :icon="['fas', 'cart-shopping']" />
+                    <FontAwesomeIcon :icon="['fas', 'cart-shopping']" /><span v-if="!itemsCart" class="pill ms-2">
+                        {{ itemsCart }}
+                    </span>
                 </a>
             </li>
         </ul>
@@ -40,5 +43,17 @@ ul {
 a {
     font-size: 0.7rem;
     color: $primary;
+}
+
+.pill {
+    display: inline-flex;
+    background-color: rgba($primary, 0.2);
+    color: $primary;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
 }
 </style>
