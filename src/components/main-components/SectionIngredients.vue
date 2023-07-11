@@ -11,7 +11,7 @@ export default {
 <template>
     <section id="ingredients" class="mt-100">
         <div class="row gy-1">
-            <FullCard>
+            <FullCard class="top-card">
                 <div class="row">
                     <div class="col-6">
                         <h3>Tell us what you have in mind</h3>
@@ -66,6 +66,27 @@ export default {
                     </div>
                 </div>
             </CardRight>
+            <FullCard class="bottom-card">
+                <div class="row">
+                    <div class="col-6">
+                        <h3>Delivered to your home</h3>
+                    </div>
+                    <div class="col-6">
+                        <div class="number">03</div>
+                    </div>
+                </div>
+                <div class="row mt-100 align-items-end">
+                    <div class="col-6">
+                        <div class="name-section">BAKED TO ORDER & GIFT WRAPPED</div>
+                        <p>Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Ut eu laoreet ex.
+                            Aliquam
+                            erat volutpat. Nullam quis sagittis nibh. Morbi consectetur ultricies ante ac congue. Donec
+                            lorem
+                            erat, finibus in velit placerat, rutrum angue.
+                        </p>
+                    </div>
+                </div>
+            </FullCard>
         </div>
     </section>
 </template>
@@ -75,6 +96,11 @@ export default {
 #ingredients {
     color: white;
     width: 100%;
+}
+
+.top-card {
+    background-image: url("../../assets/images/bakery-process-1.jpg");
+
 }
 
 h4 {
@@ -99,5 +125,9 @@ p {
 .number {
     font-size: 4rem;
     text-align: end;
+}
+
+.bottom-card {
+    background-image: url("../../assets/images/bakery-process-3.jpg");
 }
 </style>
