@@ -16,7 +16,7 @@ export default {
 <template>
     <div class="col-6">
         <AppLogo />
-        <AppNavbar :navbarLists="navbarLists" :itemsCart="itemsInCart" />
+        <AppNavbar :navbarLists="navbarLists" :itemsCart="itemsInCart" class="text-start" />
     </div>
 </template>
 <style></style>
