@@ -1,8 +1,9 @@
 <script>
 import FullCard from "./FullCard.vue"
+import CardLeft from "./CardLeft.vue"
 
 export default {
-    components: { FullCard }
+    components: { FullCard, CardLeft }
 }
 </script>
 <template>
@@ -11,7 +12,7 @@ export default {
             <FullCard>
                 <div class="row">
                     <div class="col-6">
-                        <h3>Tell us ehat you have in mind</h3>
+                        <h3>Tell us what you have in mind</h3>
                     </div>
                     <div class="col-6">
                         <div class="number">01</div>
@@ -29,24 +30,35 @@ export default {
                     </div>
                 </div>
             </FullCard>
+            <CardLeft>
+                <div class="row">
+                    <div class="col-8">
+                        <h3>We Start Baking</h3>
+                    </div>
+                    <div class="col-4">
+                        <div class="number">02</div>
+                    </div>
+                </div>
+                <div class="row align-items-end ">
+                    <div class="col-7 mt-5">
+                        <div class="name-section">SWEET & DELICIOUS</div>
+                        <p class="fs-5">Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Ut eu
+                            laoreet ex.
+                            Aliquam
+                            erat volutpat. Nullam quis sagittis nibh. Morbi consectetur ultricies ante ac congue. Donec
+                            lorem
+                            erat, finibus in velit placerat,
+                        </p>
+                    </div>
+                </div>
+            </CardLeft>
         </div>
     </section>
 </template>
 <style scoped lang="scss">
 #ingredients {
     color: white;
-    position: relative;
     width: 100%;
-
-    &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(0, 0, 0, 0.1);
-    }
 }
 
 
@@ -61,5 +73,9 @@ p {
 .number {
     font-size: 4rem;
     text-align: end;
+}
+
+.CardHAlf {
+    background-image: url();
 }
 </style>
