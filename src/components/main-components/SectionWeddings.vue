@@ -15,11 +15,23 @@ export default {
         </div>
     </CardText>
     <figure class="row ">
-        <CardWedding>
-            <img src="../../assets/images/corporate-bg.jpg" alt="Corporate" class="img-fluid">
+        <CardWedding class="my-card">
+            <img src="../../assets/images/corporate-bg.jpg" alt="Corporate" class="img-fluid img-start">
+            <img src="../../assets/images/corporate-hover-bg.jpg" alt="Corporate" class="img-fluid img-hover ">
+            <div class="on-hover">
+                <div class="name-section">INTERNATIONAL BAKERY</div>
+                <h3 class="mt-3">Corporate Events</h3>
+                <button type="button " class="btn secondary-btn mt-3">Explore more</button>
+            </div>
         </CardWedding>
-        <CardWedding>
-            <img src="../../assets/images/wedding-bg.jpg" alt="Corporate" class="img-fluid">
+        <CardWedding class="my-card">
+            <img src="../../assets/images/wedding-bg.jpg" alt="Corporate" class="img-fluid img-start">
+            <img src="../../assets/images/wedding-hover-bg.jpg" alt="Corporate" class="img-fluid img-hover ">
+            <div class="on-hover">
+                <div class="name-section">PRIVATE DINING HALL</div>
+                <h3 class="mt-3">Weddings & Parties</h3>
+                <button type="button " class="btn secondary-btn mt-3">Explore more</button>
+            </div>
         </CardWedding>
     </figure>
 </template>
@@ -27,14 +39,30 @@ export default {
 <style scoped lang="scss">
 @use "../../assets/scss/vars" as *;
 
-h2 {
-    color: $primary;
-    font-weight: 800;
-    font-size: 1.3rem;
-    line-height: 30px;
-}
-
 .row {
     margin-top: 50px;
+}
+
+.img-hover {
+    display: none;
+}
+
+.my-card {
+
+    &:hover .img-start {
+        display: none;
+    }
+
+    &:hover .img-hover {
+        display: block;
+    }
+
+    &:hover .on-hover {
+        display: block;
+    }
+}
+
+h3 {
+    font-size: 30px;
 }
 </style>

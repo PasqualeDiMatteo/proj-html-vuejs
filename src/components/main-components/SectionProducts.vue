@@ -64,25 +64,15 @@ p {
     color: grey;
 }
 
-.on-hover {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    color: white;
-    text-align: center;
-    display: none;
+h3 {
+    font-size: 18px;
+}
 
-    h3 {
-        font-size: 18px;
-    }
+.type {
+    font-size: 10px;
+}
 
-    .type {
-        font-size: 10px;
-    }
-
-    .price {
-        font-size: 20px;
-    }
+.price {
+    font-size: 20px;
 }
 </style>

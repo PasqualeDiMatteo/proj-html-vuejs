@@ -7,4 +7,8 @@
 </template>
 
 
-<style></style>
+<style scoped lang="scss">
+.col-6 {
+    position: relative;
+}
+</style>

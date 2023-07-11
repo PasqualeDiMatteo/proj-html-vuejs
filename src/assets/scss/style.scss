@@ -80,3 +80,15 @@ h2 {
 .mt-100 {
     margin-top: 100px;
 }
+
+// Hover
+
+.on-hover {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: white;
+    text-align: center;
+    display: none;
+}
