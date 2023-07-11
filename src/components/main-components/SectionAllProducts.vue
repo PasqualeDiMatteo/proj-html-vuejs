@@ -27,6 +27,9 @@ export default {
                         <figure>
                             <img src="../../assets/images/choco-chip-cookies-400x510.jpg" alt="cookies" class="img-fluid">
                             <div class="angle-left angle">&langle;</div>
+                            <div class="on-hover">
+                                <div class="options">SELECT OPTION / QUICK VIEW</div>
+                            </div>
                         </figure>
                         <h5>Choco Chip Cookies</h5>
                         <h6>$19.00 - $39.00</h6>
@@ -37,6 +40,9 @@ export default {
                         <figure>
                             <img src="../../assets/images/strawberry-jam-cookies-400x510.jpg" alt="cookies"
                                 class="img-fluid">
+                            <div class="on-hover">
+                                <div class="options">SELECT OPTION / QUICK VIEW</div>
+                            </div>
                         </figure>
                         <h5>Strawberry Jam Cookies</h5>
                         <h6>$24.00 - $62.00</h6>
@@ -47,6 +53,9 @@ export default {
                         <figure>
                             <img src="../../assets/images/strawberry-donut-400x510.jpg" alt="cookies"
                                 class="img-fluid h-100">
+                            <div class="on-hover">
+                                <div class="options">SELECT OPTION / QUICK VIEW</div>
+                            </div>
                         </figure>
                         <h5>Strawberry Donut</h5>
                         <h6>$24.00 - $42.00</h6>
@@ -58,6 +67,9 @@ export default {
                             <img src="../../assets/images/perfect-macarons-400x510.jpg" alt="cookies"
                                 class="img-fluid h-100">
                             <div class="angle-right angle">&rangle;</div>
+                            <div class="on-hover">
+                                <div class="options">SELECT OPTION / QUICK VIEW</div>
+                            </div>
                         </figure>
                         <h5>Perfect Macarons</h5>
                         <h6>$18.00 - $52.00</h6>
@@ -71,8 +83,16 @@ export default {
 <style scoped lang="scss">
 @use "../../assets/scss/vars" as *;
 
+.options {
+    font-size: 0.6rem;
+}
+
 figure {
     position: relative;
+
+    &:hover .on-hover {
+        display: block;
+    }
 }
 
 h2 {
