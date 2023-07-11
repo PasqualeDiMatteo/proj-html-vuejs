@@ -3,7 +3,6 @@ import AppLogo from "../AppLogo.vue"
 import AppNavbar from "../AppNavbar.vue"
 
 export default {
-
     data() {
         return {
             itemsInCart: 0

@@ -8,9 +8,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <FooterTop :navbarLists="navbarLists" />
-    </div>
+    <footer class="mt-100">
+        <div class="container">
+            <FooterTop :navbarLists="navbarLists" />
+        </div>
+    </footer>
 </template>
 
 <style></style>
