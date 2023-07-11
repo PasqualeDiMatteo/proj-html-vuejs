@@ -6,7 +6,16 @@
             <div class="col-3 p-0">
                 <img src="../../assets/images/social-1.jpg" alt="SOCIAL" class="img-fluid">
             </div>
-            <div class="col-6 p-0"></div>
+            <div class="col-6 p-0 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <div class="name-section">MADE FOR SHARING</div>
+                    <h2>Let's stay in touch</h2>
+                    <button type="button" class="btn secondary-btn mt-2">
+                        <font-awesome-icon :icon="['fab', 'instagram']" />
+                        Follow Us
+                    </button>
+                </div>
+            </div>
             <div class="col-3 p-0"><img src="../../assets/images/social-2.jpg" alt="SOCIAL" class="img-fluid"></div>
             <div class="col-3 p-0">
                 <img src="../../assets/images/social-3.jpg" alt="SOCIAL" class="img-fluid">
