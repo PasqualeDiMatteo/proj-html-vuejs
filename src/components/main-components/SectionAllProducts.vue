@@ -103,8 +103,13 @@ h2 {
     line-height: 30px;
 }
 
+h5 {
+    font-weight: 600;
+}
+
 h5,
 h6 {
+    font-size: 1rem;
     color: $primary;
     text-align: center;
 }

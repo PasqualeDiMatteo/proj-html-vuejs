@@ -42,8 +42,8 @@ export default {
                     </div>
                 </div>
                 <div class="row align-items-end ">
-                    <div class="col-7 mt-5">
-                        <div class="name-section">SWEET & DELICIOUS</div>
+                    <div class="col-10 mt-5">
+                        <div class="name-section mt-5">SWEET & DELICIOUS</div>
                         <p class="fs-5">Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Ut eu
                             laoreet ex.
                             Aliquam
@@ -79,7 +79,7 @@ export default {
                     </div>
                 </div>
                 <div class="row mt-100 align-items-end">
-                    <div class="col-6">
+                    <div class="col-5">
                         <div class="name-section">BAKED TO ORDER & GIFT WRAPPED</div>
                         <p>Cras consequat lectus vestibulum tortor pulvinar, quis euismod nisl varius. Ut eu laoreet ex.
                             Aliquam
@@ -117,11 +117,11 @@ h4 {
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2.9rem;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .number {
