@@ -70,6 +70,7 @@ export default {
 
 h3 {
     color: $primary ;
+    font-weight: 600;
 }
 
 .card-body {
