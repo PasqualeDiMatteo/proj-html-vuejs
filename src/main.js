@@ -5,7 +5,12 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-import { faCartShopping, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCartShopping,
+  faAngleUp,
+  faQuoteLeft,
+  faQuoteRight,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faTwitter,
@@ -19,7 +24,9 @@ library.add(
   faTwitter,
   faFacebookF,
   faPinterestP,
-  faAngleUp
+  faAngleUp,
+  faQuoteLeft,
+  faQuoteRight
 );
 
 createApp(App).component("FontAwesomeIcon", FontAwesomeIcon).mount("#app");

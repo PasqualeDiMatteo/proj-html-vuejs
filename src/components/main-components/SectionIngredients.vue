@@ -58,9 +58,12 @@ export default {
                 <div class="row align-items-end ">
                     <div class="col-12 mt-5">
                         <div class="name-section">DON'T JUST TAKE OUR WORD FOR IT</div>
-                        <h4 class="my-3">"Finally found an alternative to the mass produced products. Something that
-                            incorporates real organic ingredients, nutrient dense wellness while promothing sustainability
-                            and activity."
+                        <h4 class="my-3">
+                            <sup><font-awesome-icon :icon="['fas', 'fa-quote-left']" class="icon" /></sup>
+                            Finally found an alternative to the mass produced
+                            products.Something that incorporates real organic ingredients, nutrient dense wellness while
+                            promoting sustainability and activity.
+                            <sup><font-awesome-icon :icon="['fas', 'quote-right']" class="icon" /></sup>
                         </h4>
                         <div class="author">Rachel Cooper, Founder</div>
                     </div>
@@ -128,5 +131,10 @@ p {
 
 .bottom-card {
     background-image: url("../../assets/images/bakery-process-3.jpg");
+}
+
+.icon {
+    font-size: 1.2rem;
+
 }
 </style>

@@ -10,7 +10,7 @@
         </div>
         <div class="card-fix bg-white mt-2">
             <div class="sale">
-                <span class="dollar">$</span>
+                <sup><span class="dollar">$</span></sup>
                 <span class="price">39</span>
             </div>
             <h6>On Sale</h6>
@@ -54,10 +54,7 @@ figure {
     a {
         color: white;
     }
-
 }
-
-
 
 h6 {
     font-size: 0.7rem;
@@ -67,13 +64,10 @@ h6 {
 
 .sale {
     color: green;
-    display: flex;
-    justify-content: center;
     font-weight: 600;
 }
 
 .dollar {
-    font-size: 0.7rem;
-
+    font-size: 0.8rem;
 }
 </style>
