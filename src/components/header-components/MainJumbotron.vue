@@ -25,7 +25,7 @@ p {
 
 h1 {
     color: $primary;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 section {

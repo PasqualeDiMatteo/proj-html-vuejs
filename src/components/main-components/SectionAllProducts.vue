@@ -92,6 +92,7 @@ figure {
 
     &:hover .on-hover {
         display: block;
+        width: 100%;
     }
 }
 
