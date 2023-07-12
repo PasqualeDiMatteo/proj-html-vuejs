@@ -16,7 +16,7 @@ export default {
                         all-natural,
                         all
                         organic ingredients.</h2>
-                    <button type="button " class="btn secondary-btn mt-5">Explore our products</button>
+                    <button type="button " class="btn secondary-btn mt-5">Start Shopping</button>
                 </div>
             </CardText>
             <CardProduction>

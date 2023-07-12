@@ -9,7 +9,7 @@ export default {
     <section id="locations" class="mt-100">
         <div class="row ">
             <div class="col-12 text-center">
-                <div class="name-section">Locations</div>
+                <div class="name-section">LOCATIONS</div>
                 <h2>Visit our Bakeries</h2>
                 <div class="row mt-4">
                     <CardLocation>
@@ -18,7 +18,7 @@ export default {
                                 <img src="../../assets/images/new-york-bk-800x530.jpg" alt="location new york"
                                     class="img-fluid">
                             </figure>
-                            <div class="card-body bg-light-blue">
+                            <div class="card-body bg-light-blue pb-4">
                                 <div class="row">
                                     <h3 class="col-12 mt-3">New York</h3>
                                     <div class="col-4">
@@ -42,9 +42,9 @@ export default {
                                 <img src="../../assets/images/london-bk-800x530.jpg" alt="location new york"
                                     class="img-fluid">
                             </figure>
-                            <div class="card-body bg-cookie">
+                            <div class="card-body bg-cookie pb-4">
                                 <div class="row">
-                                    <h3 class="col-12 mt-3">New York</h3>
+                                    <h3 class="col-12 mt-3">London</h3>
                                     <div class="col-4">
                                         <div class="info">CALL US</div>
                                         <div class="number">1.800.458.556</div>
