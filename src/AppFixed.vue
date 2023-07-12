@@ -45,6 +45,7 @@ figure {
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 10px;
 }
 
 .back-bg {
