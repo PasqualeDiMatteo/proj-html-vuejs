@@ -21,10 +21,10 @@
                 <img src="../../assets/images/social-3.jpg" alt="SOCIAL" class="img-fluid">
             </div>
             <div class="col-3 p-0">
-                <img src="../../assets/images/social-4.jpg" alt="SOCIAL" class="img-fluid">
+                <img src="../../assets/images/social-5.jpg" alt="SOCIAL" class="img-fluid">
             </div>
             <div class="col-3 p-0">
-                <img src="../../assets/images/social-5.jpg" alt="SOCIAL" class="img-fluid">
+                <img src="../../assets/images/social-4.jpg" alt="SOCIAL" class="img-fluid">
             </div>
             <div class="col-3 p-0">
                 <img src="../../assets/images/social-6.jpg" alt="SOCIAL" class="img-fluid">
