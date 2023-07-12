@@ -2,10 +2,12 @@
 import AppHeader from "./components/AppHeader.vue"
 import AppMain from "./components/AppMain.vue"
 import AppFooter from "./components/AppFooter.vue"
+import AppFixed from "./AppFixed.vue"
+
 
 
 export default {
-  components: { AppHeader, AppMain, AppFooter },
+  components: { AppHeader, AppMain, AppFooter, AppFixed },
   data() {
     return {
       navbarHeader: [
@@ -80,6 +82,7 @@ export default {
   <AppHeader :navbarLists="navbarHeader" />
   <AppMain />
   <AppFooter :navbarLists="navbarFooter" />
+  <AppFixed />
 </template>
 
 <style lang="scss">
