@@ -58,6 +58,7 @@ ul{
     &:hover{
         color: $primary;
         border: 2px solid rgba($color: $primary, $alpha: 0.2);
+        background-color: white;
     }
 }
 
