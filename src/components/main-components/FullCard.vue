@@ -8,10 +8,8 @@
 
 <style scoped lang="scss">
 .col-12 {
-    min-height: 490px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-    filter: brightness(0.8);
 }
 </style>

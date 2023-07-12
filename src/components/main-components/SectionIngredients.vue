@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
     <section id="ingredients" class="mt-100">
-        <div class="row gy-1">
+        <div class="row ">
             <FullCard class="top-card">
                 <div class="row">
                     <div class="col-6">
@@ -100,7 +100,6 @@ export default {
 
 .top-card {
     background-image: url("../../assets/images/bakery-process-1.jpg");
-
 }
 
 h4 {

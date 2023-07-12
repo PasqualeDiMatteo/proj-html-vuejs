@@ -11,7 +11,7 @@ export default {
             <div class="col-12 text-center">
                 <div class="name-section">Locations</div>
                 <h2>Visit our Bakeries</h2>
-                <div class="row">
+                <div class="row mt-4">
                     <CardLocation>
                         <div class="card-location">
                             <figure class="m-0">
